@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  setting controller
+ *  global controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::setting.setting');
+module.exports = createCoreController('api::global.global');
