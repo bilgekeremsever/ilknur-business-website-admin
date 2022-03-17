@@ -20,6 +20,15 @@
     },
     "storeLink": {
       "type": "string"
+    },
+    "telephoneText": {
+      "type": "string"
+    },
+    "storeText": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
