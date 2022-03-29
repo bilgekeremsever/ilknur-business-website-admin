@@ -37,6 +37,9 @@
     },
     "youtubeVideoID": {
       "type": "string"
+    },
+    "showInHomepage": {
+      "type": "boolean"
     }
   }
 }
