@@ -29,6 +29,15 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "whatsappLink": {
+      "type": "string"
+    },
+    "instagramLink": {
+      "type": "string"
+    },
+    "facebookLink": {
+      "type": "string"
     }
   }
 }
