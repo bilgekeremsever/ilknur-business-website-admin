@@ -34,6 +34,9 @@
       "relation": "oneToMany",
       "target": "api::course-tag.course-tag",
       "mappedBy": "course"
+    },
+    "youtubeVideoID": {
+      "type": "string"
     }
   }
 }

@@ -34,6 +34,9 @@
       "relation": "oneToMany",
       "target": "api::product-tag.product-tag",
       "mappedBy": "product"
+    },
+    "youtubeVideoID": {
+      "type": "string"
     }
   }
 }
