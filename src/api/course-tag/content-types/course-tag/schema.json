@@ -4,10 +4,11 @@
   "info": {
     "singularName": "course-tag",
     "pluralName": "course-tags",
-    "displayName": "Course Tag"
+    "displayName": "Course Tag",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
