@@ -40,6 +40,12 @@
     },
     "showInHomepage": {
       "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
