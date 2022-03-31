@@ -14,12 +14,6 @@
   "attributes": {
     "tag": {
       "type": "string"
-    },
-    "course": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::course.course",
-      "inversedBy": "course_tags"
     }
   }
 }

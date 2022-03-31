@@ -29,11 +29,10 @@
         "audios"
       ]
     },
-    "product_tags": {
+    "product_tag": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-tag.product-tag",
-      "mappedBy": "product"
+      "relation": "oneToOne",
+      "target": "api::product-tag.product-tag"
     },
     "youtubeVideoID": {
       "type": "string"

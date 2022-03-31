@@ -29,11 +29,10 @@
         "audios"
       ]
     },
-    "course_tags": {
+    "course_tag": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::course-tag.course-tag",
-      "mappedBy": "course"
+      "relation": "oneToOne",
+      "target": "api::course-tag.course-tag"
     },
     "youtubeVideoID": {
       "type": "string"
